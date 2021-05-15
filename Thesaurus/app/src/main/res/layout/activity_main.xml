@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/availView_thes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/searchEdit_thes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter word here..."/>
+
+    <Button
+        android:id="@+id/button_thes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Synonyms" />
+
+    <TextView
+        android:id="@+id/resView_thes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No synonyms"/>
+
+</LinearLayout>
